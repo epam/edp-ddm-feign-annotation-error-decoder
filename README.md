@@ -253,3 +253,8 @@ interface GitHub3 extends FeignClientBase {
     List<Contributor> contributors(@Param("owner") String owner, @Param("repo") String repo);
 }
 ```
+
+### License
+
+The feign-annotation-error-decoder is Open Source software released under
+the [Apache 2.0 license](https://www.apache.org/licenses/LICENSE-2.0).
